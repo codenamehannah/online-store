@@ -6,6 +6,9 @@ public class Product {
     private String name;
     private double price;
 
+    public Product(String id, String name, double price) {
+    }
+
     @Override
     public String toString() {
         return "Product{" +
@@ -45,8 +48,6 @@ public class Product {
         this.price = price;
 
 
-
-        }
+    }
 
     }
-}
